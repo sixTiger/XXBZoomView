@@ -14,7 +14,7 @@
 		0980E5621ACD1D0B0027E9BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0980E5611ACD1D0B0027E9BE /* Images.xcassets */; };
 		0980E5651ACD1D0B0027E9BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0980E5631ACD1D0B0027E9BE /* LaunchScreen.xib */; };
 		0980E5711ACD1D0B0027E9BE /* XXBZoomViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0980E5701ACD1D0B0027E9BE /* XXBZoomViewTests.m */; };
-		0980E57C1ACD1DB50027E9BE /* XXBZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0980E57B1ACD1DB50027E9BE /* XXBZoomView.m */; };
+		0980E5801ACD2A010027E9BE /* XXBZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0980E57F1ACD2A010027E9BE /* XXBZoomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		0980E56A1ACD1D0B0027E9BE /* XXBZoomViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXBZoomViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0980E56F1ACD1D0B0027E9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0980E5701ACD1D0B0027E9BE /* XXBZoomViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXBZoomViewTests.m; sourceTree = "<group>"; };
-		0980E57A1ACD1DB50027E9BE /* XXBZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXBZoomView.h; sourceTree = "<group>"; };
-		0980E57B1ACD1DB50027E9BE /* XXBZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXBZoomView.m; sourceTree = "<group>"; };
+		0980E57E1ACD2A010027E9BE /* XXBZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXBZoomView.h; sourceTree = "<group>"; };
+		0980E57F1ACD2A010027E9BE /* XXBZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXBZoomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +84,7 @@
 		0980E5531ACD1D0B0027E9BE /* XXBZoomView */ = {
 			isa = PBXGroup;
 			children = (
+				0980E57D1ACD2A010027E9BE /* XXBZoomView */,
 				0980E5581ACD1D0B0027E9BE /* AppDelegate.h */,
 				0980E5591ACD1D0B0027E9BE /* AppDelegate.m */,
 				0980E55B1ACD1D0B0027E9BE /* ViewController.h */,
@@ -92,8 +93,6 @@
 				0980E5611ACD1D0B0027E9BE /* Images.xcassets */,
 				0980E5631ACD1D0B0027E9BE /* LaunchScreen.xib */,
 				0980E5541ACD1D0B0027E9BE /* Supporting Files */,
-				0980E57A1ACD1DB50027E9BE /* XXBZoomView.h */,
-				0980E57B1ACD1DB50027E9BE /* XXBZoomView.m */,
 			);
 			path = XXBZoomView;
 			sourceTree = "<group>";
@@ -122,6 +121,15 @@
 				0980E56F1ACD1D0B0027E9BE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0980E57D1ACD2A010027E9BE /* XXBZoomView */ = {
+			isa = PBXGroup;
+			children = (
+				0980E57E1ACD2A010027E9BE /* XXBZoomView.h */,
+				0980E57F1ACD2A010027E9BE /* XXBZoomView.m */,
+			);
+			path = XXBZoomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,7 +234,7 @@
 			files = (
 				0980E55D1ACD1D0B0027E9BE /* ViewController.m in Sources */,
 				0980E55A1ACD1D0B0027E9BE /* AppDelegate.m in Sources */,
-				0980E57C1ACD1DB50027E9BE /* XXBZoomView.m in Sources */,
+				0980E5801ACD2A010027E9BE /* XXBZoomView.m in Sources */,
 				0980E5571ACD1D0B0027E9BE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +428,7 @@
 				0980E5761ACD1D0B0027E9BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0980E5771ACD1D0B0027E9BE /* Build configuration list for PBXNativeTarget "XXBZoomViewTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +437,7 @@
 				0980E5791ACD1D0B0027E9BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

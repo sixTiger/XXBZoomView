@@ -19,11 +19,10 @@
     [super viewDidLoad];
     XXBZoomView * zoomView = [[XXBZoomView alloc] initWithFrame:CGRectMake(10, 20, 150, 150)];
     zoomView.scale = 2.0;
-    zoomView.dragingEnabled = NO;
+    zoomView.dragingEnabled = YES;
     [zoomView.layer setBorderColor:[UIColor blackColor].CGColor];
     [zoomView.layer setBorderWidth:1.0];
     [zoomView.layer setCornerRadius:75];
-//    [zoomView setDragingEnabled:NO];
     [self.view addSubview:zoomView];
     _zoomView = zoomView;
 }

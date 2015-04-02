@@ -31,7 +31,7 @@
     [self setBackgroundColor:[UIColor clearColor]];
     [self setClipsToBounds:YES];
     self.scale = 2.0;
-    [self setDragingEnabled:YES];
+    self.dragingEnabled = YES;
     UIPanGestureRecognizer* pgr = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handlePan:)];
     [self addGestureRecognizer:pgr];
 }
@@ -63,7 +63,6 @@
     _scale = scale;
     [self setNeedsDisplay];
 }
-
 - (void)setDragingEnabled:(BOOL)enabled
 {
     [self setUserInteractionEnabled:enabled];
