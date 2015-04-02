@@ -1,5 +1,5 @@
 # XXBZoomView
-![image](./image/1.PNG)
+![image](./Image/1.PNG)
 
 
-![image](./image/2.PNG)
+![image](./Image/2.PNG)
